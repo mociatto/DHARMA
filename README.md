@@ -71,39 +71,6 @@ Analyzes privacy leakage through inference and reconstruction attacks:
 
 **Metrics**: Attack accuracy, AUC, TPR@low FPR, reconstruction quality (MSE, MAE, correlation).
 
-## Key Features
-
-- **Modular Design**: Three separate notebooks for baseline establishment, integrity analysis, and privacy analysis
-- **Comprehensive Security Evaluation**: Covers both integrity (model robustness) and privacy (data leakage) vulnerabilities
-- **Real-World Scenarios**: Attacks model realistic threat scenarios in medical federated learning
-- **Reproducible**: Caching mechanisms enable efficient experimentation and reproducibility
-- **Medical Context**: Specifically designed for skin lesion classification with class imbalance considerations
-
-## Technical Stack
-
-- **Deep Learning**: TensorFlow/Keras for model architecture and training
-- **Federated Learning**: Custom VFL implementation with disentangled representations
-- **Security Analysis**: Adversarial attack implementations and evaluation metrics
-- **Visualization**: Matplotlib, Seaborn for results visualization
-- **Data Processing**: NumPy, Pandas for data handling and analysis
-
-## Results
-
-The framework demonstrates:
-
-- Baseline model performance on imbalanced medical dataset
-- Vulnerability assessment across multiple attack vectors
-- Privacy leakage quantification through various inference attacks
-- Reconstruction quality analysis for both image and tabular data
-
-## Citation
-
-If you use this framework in your research, please cite:
-
-```
-DHARMA: Distributed Hybrid Architecture for Responsible Model Alignment and Assured Privacy
-```
-
 ## License
 
 This project is provided for research and educational purposes.
