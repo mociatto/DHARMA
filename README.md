@@ -11,7 +11,7 @@ DHARMA implements a **Hybrid Vertical Federated Learning** system that mirrors r
 - **Image Client**: Represents edge hardware (e.g., Digital Dermatoscope) that captures dermoscopic images directly from patients
 - **Tabular Client**: Represents the hospital's Electronic Health Record (EHR) system, holding secure metadata (Age, Sex, Anatomical Site)
 
-In VFL, clients exchange feature embeddings—mathematically rich representations containing highly condensed information—rather than raw data. The central server aggregates these embeddings using cross-modal attention mechanisms to make final predictions.
+In VFL, clients exchange feature embeddings that are mathematically rich representations containing highly condensed information, rather than raw data. The central server aggregates these embeddings using cross-modal attention mechanisms to make final predictions.
 
 ![DHARMA Architecture](images/Fig-1.png)
 
