@@ -13,7 +13,7 @@ DHARMA implements a **Hybrid Vertical Federated Learning** system that mirrors r
 
 In VFL, clients exchange feature embeddings—mathematically rich representations containing highly condensed information—rather than raw data. The central server aggregates these embeddings using cross-modal attention mechanisms to make final predictions.
 
-![DHARMA Architecture](Fig-1.png)
+![DHARMA Architecture](images/Fig-1.png)
 
 ## Dataset
 
