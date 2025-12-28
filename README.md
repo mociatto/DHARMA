@@ -15,6 +15,8 @@ In VFL, clients exchange feature embeddings that are mathematically rich represe
 
 ![DHARMA Architecture](images/Fig-1.png)
 
+*Figure 1 illustrates the DHARMA architecture design, showing the Hybrid Vertical Federated Learning system with Image and Tabular clients collaborating through a central transformer server.*
+
 ## Dataset
 
 The framework is evaluated on the **HAM10000** dataset, which contains dermoscopic skin lesion images with extreme class imbalance. Common conditions like Melanocytic nevi (`nv`) vastly outnumber rare but critical cases like Melanoma (`mel`), presenting a significant challenge for medical AI systems.
