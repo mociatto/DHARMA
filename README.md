@@ -57,6 +57,10 @@ Evaluates the system's robustness against integrity attacks:
 
 **Metrics**: Attack success rate, accuracy degradation, per-class performance analysis.
 
+![Integrity Attack Results](images/Fig-2.png)
+
+*Figure 2 summarizes the integrity attacks and their outcomes, demonstrating the system's robustness against various adversarial perturbations.*
+
 ### 3. Privacy Audit Notebook
 
 [![Kaggle](https://img.shields.io/badge/View%20on-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/mostafaanoosha/dharma-03-privacy-audit)
@@ -70,6 +74,10 @@ Analyzes privacy leakage through inference and reconstruction attacks:
   - **Attribute Inference**: Infers demographic attributes (age, sex) from tabular embeddings
 
 **Metrics**: Attack accuracy, AUC, TPR@low FPR, reconstruction quality (MSE, MAE, correlation).
+
+![Privacy Attack Results](images/Fig-3.png)
+
+*Figure 3 summarizes the privacy attacks and their outcomes, quantifying the privacy leakage through various inference and reconstruction attacks.*
 
 ## License
 
